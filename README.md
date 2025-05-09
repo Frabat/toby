@@ -19,6 +19,11 @@ To run the dev server for your app, use:
 npx nx serve hr-app
 ```
 
+To run both the Client and the Server run 
+```sh
+npx nx run-many --target=serve --all
+```
+
 To create a production bundle:
 
 ```sh
